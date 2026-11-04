@@ -1,0 +1,32 @@
+QMainWindow {
+    background-color: #ccccff;
+}
+
+QLineEdit {
+    background-color: #ccffcc;
+    color: #ff0000
+}
+
+QLineEdit#withoutDPH {
+    background-color: #ffcccc;
+}
+
+QLineEdit[blinking="blinkOff"] {
+    background-color: #0000ff;
+    color: #ffffff;
+}
+
+QLineEdit[blinking="blinkOn"] {
+    background-color: #00ff00;
+    color: #000000;
+}
+
+QLineEdit#withDPH[blinking="blinkOff"] {
+    background-color: #000000;
+    color: #88ffffff;
+}
+
+QLineEdit#withDPH[blinking="blinkOn"] {
+    background-color: #ffffff;
+    color: #000000;
+}
